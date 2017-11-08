@@ -33,9 +33,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="1"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -43,9 +43,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="2"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -53,9 +53,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="3"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -63,9 +63,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="/"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
 
@@ -83,9 +83,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="4"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
 
@@ -94,9 +94,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="@string/_5"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -104,9 +104,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="6"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -114,9 +114,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="X"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp"
                 tools:ignore="HardcodedText" />
 
@@ -134,9 +134,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="7"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -144,9 +144,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="8"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -154,9 +154,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="9"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <Button
@@ -164,10 +164,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
-                android:text="--"
-                android:textColor="#00000"
-                android:textSize="30sp" />
+                android:text="-"
+                android:textSize="30sp"
+                android:background="@android:color/background_light"
+                android:textColor="@android:color/black" />
 
 
         </LinearLayout>
@@ -183,7 +183,6 @@
                 android:layout_width="192dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_weight="0"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:paddingLeft="20dp"
@@ -193,6 +192,7 @@
                     android:id="@+id/clear_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="0dp"
                     android:layout_gravity="center"
                     android:background="#38c5c6"
                     android:text="Clear"
@@ -204,9 +204,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
                 android:text="0"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
 
@@ -215,9 +215,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="0"
+                android:background="@android:color/background_light"
+
                 android:text="+"
-                android:textColor="#00000"
+                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
 
@@ -229,11 +230,24 @@
         android:id="@+id/equal_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentRight="true"
         android:background="@android:color/background_light"
         android:elevation="0dp"
         android:text="="
         android:textColor="@android:color/holo_orange_light"
         android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
 
 </RelativeLayout>
